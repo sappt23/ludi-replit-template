@@ -6,7 +6,7 @@ const port = process.env.PORT || 3000;
 
 // Example proxy route — modify target as needed
 app.use('/', createProxyMiddleware({
-  target: 'http://example.com',
+  target: 'https://discord.com/',
   changeOrigin: true,
   pathRewrite: { '^/': '/' },
 }));
